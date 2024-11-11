@@ -2,9 +2,13 @@
 <html>
 <head>
 <title>Kassid ja kilpkonnad</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="grid-container">
+	
+	<div class="grid-column">Esimene tulp</div>
+	
 <h1>Kassid</h1>
 <p>Leht tutvustab süvitsi kasse ning nende iseloomu.</p>
 <p>
@@ -17,7 +21,7 @@
 width = "350"
 height = "250"
 >
-
+	<div class="grid-column">Teine tulp</div>
 <h2>Kilpkonnad</h2>
 
 <ol>
@@ -43,13 +47,10 @@ height = "250"
     <td>Elab meres</td>
   </tr>
 </table> 
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
 
+ <div w3-include-html="html.html"></div> 
+
+</div>
 
 
 </body>

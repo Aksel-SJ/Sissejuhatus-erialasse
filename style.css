@@ -1,0 +1,39 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: blue
+}
+
+h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ color: green;
+ font-size: 90px;
+}
+
+p{
+ font-family: "Times New Roman", Times, serif;
+ color: red;
+}
+
+img{
+ border: 5px solid #540
+}
+
+li {
+color: purple
+}
+
+body {
+background-color: linen;
+}
+
+.grid-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 20px;
+}
+
+.grid-column{
+ padding: 10px;
+ border: 1px solid #ccc;
+}
